@@ -108,25 +108,25 @@ smart-classroom-iot/
 ### System Architecture
 
 <p align="center">
-  <img src="docs/System Block Diagram.png" alt="Smart Classroom System Block Diagram" width="800">
+  <img src="docs/System Block Diagram.png" alt="Smart Classroom System Block Diagram" width="400">
 </p>
 
 ### Priority Control Logic
 
 <p align="center">
-  <img src="docs/Priority Logic Flowchart.png" alt="Priority Control Logic Flowchart" width="800">
+  <img src="docs/Priority Logic Flowchart.png" alt="Priority Control Logic Flowchart" width="400">
 </p>
 
 ### Hardware Prototype
 
 <p align="center">
-  <img src="hardware/images/Hardware Prototype.jpg" alt="Smart Classroom Hardware Prototype" width="800">
+  <img src="hardware/images/Hardware Prototype.jpg" alt="Smart Classroom Hardware Prototype" width="400">
 </p>
 
 ### Circuit Diagram
 
 <p align="center">
-  <img src="hardware/images/Circuit Diagram.png" alt="Smart Classroom Circuit Diagram" width="800">
+  <img src="hardware/images/Circuit Diagram.png" alt="Smart Classroom Circuit Diagram" width="400">
 </p>
 
 ### Flutter Dashboard
