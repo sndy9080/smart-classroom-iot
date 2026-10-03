@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "smart-room-iot-18a0a",
+          "appId": "1:183268329040:android:300eab6ec4984d22a27355",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "smart-room-iot-18a0a",
+          "configurations": {
+            "android": "1:183268329040:android:300eab6ec4984d22a27355",
+            "ios": "1:183268329040:ios:c90597f0e5d6136ba27355",
+            "macos": "1:183268329040:ios:c90597f0e5d6136ba27355",
+            "web": "1:183268329040:web:b8dc6410873d5d39a27355",
+            "windows": "1:183268329040:web:f3207fb55a0f6d09a27355"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

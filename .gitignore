@@ -1,0 +1,22 @@
+# Firebase local configuration
+software/flutter/lib/firebase_options.dart
+software/flutter/android/app/google-services.json
+
+# ESP32 local credentials
+hardware/sourcode_esp32/config.h
+
+# Flutter generated files
+**/.dart_tool/
+**/build/
+**/.idea/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/coverage/
+
+# Android local files
+**/local.properties
+**/*.hprof
+**/key.properties
+**/*.jks
+**/*.keystore

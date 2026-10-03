@@ -1,0 +1,61 @@
+name: smart_classroom_app
+description: Smart Classroom IoT Control Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mqtt_client:  ^10.2.0
+    
+  
+  # ✅ TESTED COMPATIBLE: Versi yang pasti ada dan kompatibel
+  firebase_core: 2.15.1
+  firebase_database: 10.2.5
+  firebase_auth: 4.7.3
+  firebase_messaging: 14.6.7
+  
+  # State Management
+  provider: 6.0.5
+  get: 4.6.5
+  
+  # Notifications - Stable versions
+  flutter_local_notifications: 17.2.4
+  permission_handler: ^12.0.3
+  
+  # UI Components
+  google_fonts: 4.0.4
+  animate_do: 3.1.2
+  fl_chart: 0.63.0
+  
+  # Utilities
+  intl: 0.18.1
+  shared_preferences: 2.2.0
+  connectivity_plus: 4.0.2
+  cupertino_icons: 1.0.6
+
+  cached_network_image: ^3.2.4
+  smooth_page_indicator: ^1.0.0
+
+# ❌ REMOVE: dependency_overrides yang bermasalah
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/images/univ_logo.png
+    - assets/images/carouselImages_1.jpeg
+    - assets/images/carouselImages_2.jpeg
+    - assets/images/carouselImages_3.jpeg
+    - assets/images/carouselImages_4.jpeg
+    - assets/images/carouselImages_5.jpeg
