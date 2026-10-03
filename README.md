@@ -156,5 +156,5 @@ smart-classroom-iot/
 ### Energy Efficiency
 
 <p align="center">
-  <img src="docs/Total Duration Comparison Chart.png" alt="Smart Classroom Total Duration Comparison" width="800">
+  <img src="docs/Total Duration Comparison Chart.png" alt="Smart Classroom Total Duration Comparison" width="500">
 </p>
